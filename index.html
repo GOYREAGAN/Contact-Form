@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta name = "author" content ="Goy Reagan">
+        <meta name = "description" content = "a basic form for getting in touch with Goy Reagan">
+        <meta name = "keywords" content = "contact, form">
+        <title>let's get along</title>
+        <link rel ="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="form">
+            <main>
+                <form action=""> <!--Add a URL of where the data is to be sent(e.g server)-->
+                    <legend>Connect With Me 😊</legend>
+                    <label for ="name">First Name:</label>
+                    <br>
+                    <input type ="text"  id="name" placeholder="Enter your first name" required/>
+                    <br>
+                    <label for="second_name">Second Name:</label>
+                    <br>
+                    <input type="text" id="second_name" placeholder = "Enter your surname" required/>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input id="email" type="email" placeholder="Enter your email account" required/>
+                    <br>
+                    <label for="number">Phone Number:</label>
+                    <br>
+                    <input type="tel" id="number" placeholder="Include the country code" required/>
+                    <br>
+                    <label for="DOB">Date Of Birth</label>
+                    <br>
+                    <input id="DOB" type="date" />
+                    <br>
+                    <label for="genes">Gender</label>
+                    <br>
+                    <select id="genes">
+                        <option selected>Male</option>
+                        <option>Female</option>
+                        <option>Gay</option>
+                        <option>Rather not say</option>  
+                    </select>
+                    <br>
+                    <lablel for="country">Country</lablel>
+                    <br>
+                    <input id="country" type="text" placeholder="Where do you live?"/>
+                    <br>
+                    <label for="more-info">Tell me more about yourself?</label>
+                    <br>
+                    <textarea id="more-info" placeholder="What best descibes you??">
+    
+                    </textarea>
+                    <br>
+                    <lablel for="sending"></lablel>
+                    <br>
+                    <input id="sending" type="submit"/>
+                </form>
+            </main>
+
+        </div>
+
+    </body>
+</html>
